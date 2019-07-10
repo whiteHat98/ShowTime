@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		97B10D3D22D4756E00EBB774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D3C22D4756E00EBB774 /* AppDelegate.swift */; };
-		97B10D3F22D4756E00EBB774 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D3E22D4756E00EBB774 /* ViewController.swift */; };
+		97B10D3F22D4756E00EBB774 /* DetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D3E22D4756E00EBB774 /* DetectionViewController.swift */; };
 		97B10D4222D4756E00EBB774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B10D4022D4756E00EBB774 /* Main.storyboard */; };
 		97B10D4522D4756E00EBB774 /* ShowTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D4322D4756E00EBB774 /* ShowTime.xcdatamodeld */; };
 		97B10D4722D4756F00EBB774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B10D4622D4756F00EBB774 /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		97B10D3922D4756E00EBB774 /* ShowTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B10D3C22D4756E00EBB774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97B10D3E22D4756E00EBB774 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97B10D3E22D4756E00EBB774 /* DetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionViewController.swift; sourceTree = "<group>"; };
 		97B10D4122D4756E00EBB774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97B10D4422D4756E00EBB774 /* ShowTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShowTime.xcdatamodel; sourceTree = "<group>"; };
 		97B10D4622D4756F00EBB774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				97B10D5B22D475FE00EBB774 /* model_cpm.mlmodel */,
 				97B10D3C22D4756E00EBB774 /* AppDelegate.swift */,
 				97B10D5122D4759600EBB774 /* VideoCapture.swift */,
-				97B10D3E22D4756E00EBB774 /* ViewController.swift */,
+				97B10D3E22D4756E00EBB774 /* DetectionViewController.swift */,
 				97B10D5322D475D100EBB774 /* Measure.swift */,
 				97B10D4022D4756E00EBB774 /* Main.storyboard */,
 				97B10D5922D475F000EBB774 /* DrawingJoint.swift */,
@@ -158,7 +158,7 @@
 			files = (
 				97B10D5C22D475FE00EBB774 /* model_cpm.mlmodel in Sources */,
 				97B10D5222D4759600EBB774 /* VideoCapture.swift in Sources */,
-				97B10D3F22D4756E00EBB774 /* ViewController.swift in Sources */,
+				97B10D3F22D4756E00EBB774 /* DetectionViewController.swift in Sources */,
 				97B10D5422D475D100EBB774 /* Measure.swift in Sources */,
 				97B10D5822D475DE00EBB774 /* MovingAverageFilter.swift in Sources */,
 				97B10D5622D475DB00EBB774 /* HeatmapPostProcessor.swift in Sources */,

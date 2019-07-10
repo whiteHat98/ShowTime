@@ -10,7 +10,7 @@ import UIKit
 import Vision
 import CoreMedia
 
-class ViewController: UIViewController {
+class DetectionViewController: UIViewController {
     public typealias DetectObjectsCompletion = ([PredictedPoint?]?, Error?) -> Void
     
 
@@ -102,7 +102,7 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: VideoCaptureDelegate{
+extension DetectionViewController: VideoCaptureDelegate{
     func videoCapture(_ capture: VideoCapture, didCaptureVideoFrame pixelBuffer: CVPixelBuffer?, timedtamp: CMTime) {
         if let pixelBuffer = pixelBuffer{
             //start measure
@@ -113,7 +113,7 @@ extension ViewController: VideoCaptureDelegate{
 }
 
 
-extension ViewController {
+extension DetectionViewController {
     
     func predictUsingVision(pixelBuffer : CVPixelBuffer){
         guard let request = request else {fatalError()}
