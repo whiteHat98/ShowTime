@@ -15,10 +15,13 @@
 		97B10D4A22D4756F00EBB774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B10D4822D4756F00EBB774 /* LaunchScreen.storyboard */; };
 		97B10D5222D4759600EBB774 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D5122D4759600EBB774 /* VideoCapture.swift */; };
 		97B10D5422D475D100EBB774 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D5322D475D100EBB774 /* Measure.swift */; };
-		97B10D5622D475DB00EBB774 /* HeatmapPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D5522D475DB00EBB774 /* HeatmapPostProcessor.swift */; };
-		97B10D5822D475DE00EBB774 /* MovingAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D5722D475DE00EBB774 /* MovingAverageFilter.swift */; };
 		97B10D5A22D475F000EBB774 /* DrawingJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D5922D475F000EBB774 /* DrawingJoint.swift */; };
 		97B10D5C22D475FE00EBB774 /* model_cpm.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D5B22D475FE00EBB774 /* model_cpm.mlmodel */; };
+		C5CF800F22D5A945004A362B /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF800E22D5A945004A362B /* TutorialViewController.swift */; };
+		C5CF801122D5A966004A362B /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801022D5A966004A362B /* Slide.swift */; };
+		C5CF801322D5A9A4004A362B /* SlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CF801222D5A9A4004A362B /* SlideView.xib */; };
+		C5CF801522D5AA7E004A362B /* MovingAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801422D5AA7E004A362B /* MovingAverageFilter.swift */; };
+		C5CF801722D5AA9B004A362B /* HeatmapPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801622D5AA9B004A362B /* HeatmapPostProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +35,13 @@
 		97B10D4B22D4756F00EBB774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97B10D5122D4759600EBB774 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoCapture.swift; path = ../../ProjectMC2/ProjectMC2/General/VideoCapture.swift; sourceTree = "<group>"; };
 		97B10D5322D475D100EBB774 /* Measure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Measure.swift; path = ../../ProjectMC2/ProjectMC2/General/Measure.swift; sourceTree = "<group>"; };
-		97B10D5522D475DB00EBB774 /* HeatmapPostProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeatmapPostProcessor.swift; path = "../../../../Downloads/PoseEstimation-CoreML-master/PoseEstimation-CoreML/Common/HeatmapPostProcessor.swift"; sourceTree = "<group>"; };
-		97B10D5722D475DE00EBB774 /* MovingAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovingAverageFilter.swift; path = "../../../../Downloads/PoseEstimation-CoreML-master/PoseEstimation-CoreML/Common/MovingAverageFilter.swift"; sourceTree = "<group>"; };
 		97B10D5922D475F000EBB774 /* DrawingJoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawingJoint.swift; path = ../../ProjectMC2/ProjectMC2/General/DrawingJoint.swift; sourceTree = "<group>"; };
 		97B10D5B22D475FE00EBB774 /* model_cpm.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = model_cpm.mlmodel; sourceTree = "<group>"; };
+		C5CF800E22D5A945004A362B /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		C5CF801022D5A966004A362B /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		C5CF801222D5A9A4004A362B /* SlideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideView.xib; sourceTree = "<group>"; };
+		C5CF801422D5AA7E004A362B /* MovingAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovingAverageFilter.swift; path = "../../ShowTime-master/ShowTime/MovingAverageFilter.swift"; sourceTree = "<group>"; };
+		C5CF801622D5AA9B004A362B /* HeatmapPostProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeatmapPostProcessor.swift; path = "../../ShowTime-master/ShowTime/HeatmapPostProcessor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +80,13 @@
 				97B10D3E22D4756E00EBB774 /* DetectionViewController.swift */,
 				97B10D5322D475D100EBB774 /* Measure.swift */,
 				97B10D4022D4756E00EBB774 /* Main.storyboard */,
+				C5CF800E22D5A945004A362B /* TutorialViewController.swift */,
+				C5CF801022D5A966004A362B /* Slide.swift */,
+				C5CF801422D5AA7E004A362B /* MovingAverageFilter.swift */,
+				C5CF801622D5AA9B004A362B /* HeatmapPostProcessor.swift */,
+				C5CF801222D5A9A4004A362B /* SlideView.xib */,
 				97B10D5922D475F000EBB774 /* DrawingJoint.swift */,
-				97B10D5522D475DB00EBB774 /* HeatmapPostProcessor.swift */,
 				97B10D4622D4756F00EBB774 /* Assets.xcassets */,
-				97B10D5722D475DE00EBB774 /* MovingAverageFilter.swift */,
 				97B10D4822D4756F00EBB774 /* LaunchScreen.storyboard */,
 				97B10D4B22D4756F00EBB774 /* Info.plist */,
 				97B10D4322D4756E00EBB774 /* ShowTime.xcdatamodeld */,
@@ -145,6 +154,7 @@
 			files = (
 				97B10D4A22D4756F00EBB774 /* LaunchScreen.storyboard in Resources */,
 				97B10D4722D4756F00EBB774 /* Assets.xcassets in Resources */,
+				C5CF801322D5A9A4004A362B /* SlideView.xib in Resources */,
 				97B10D4222D4756E00EBB774 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,13 +168,15 @@
 			files = (
 				97B10D5C22D475FE00EBB774 /* model_cpm.mlmodel in Sources */,
 				97B10D5222D4759600EBB774 /* VideoCapture.swift in Sources */,
+				C5CF800F22D5A945004A362B /* TutorialViewController.swift in Sources */,
 				97B10D3F22D4756E00EBB774 /* DetectionViewController.swift in Sources */,
 				97B10D5422D475D100EBB774 /* Measure.swift in Sources */,
-				97B10D5822D475DE00EBB774 /* MovingAverageFilter.swift in Sources */,
-				97B10D5622D475DB00EBB774 /* HeatmapPostProcessor.swift in Sources */,
+				C5CF801522D5AA7E004A362B /* MovingAverageFilter.swift in Sources */,
+				C5CF801122D5A966004A362B /* Slide.swift in Sources */,
 				97B10D5A22D475F000EBB774 /* DrawingJoint.swift in Sources */,
 				97B10D4522D4756E00EBB774 /* ShowTime.xcdatamodeld in Sources */,
 				97B10D3D22D4756E00EBB774 /* AppDelegate.swift in Sources */,
+				C5CF801722D5AA9B004A362B /* HeatmapPostProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3N7N4BXCRP;
+				DEVELOPMENT_TEAM = 6ZFS657T4Z;
 				INFOPLIST_FILE = ShowTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -329,7 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3N7N4BXCRP;
+				DEVELOPMENT_TEAM = 6ZFS657T4Z;
 				INFOPLIST_FILE = ShowTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

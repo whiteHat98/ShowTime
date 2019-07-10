@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="owv-Dw-bFs">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -39,6 +39,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="C8Y-yo-eJo">
+            <objects>
+                <viewController id="owv-Dw-bFs" customClass="TutorialViewController" customModule="ShowTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Mba-ZK-BWk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YYt-OF-HUG">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="GfZ-W3-P32">
+                                <rect key="frame" x="188" y="751" width="39" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YYt-OF-HUG" firstAttribute="height" secondItem="Mba-ZK-BWk" secondAttribute="height" id="Sll-Qf-VxE"/>
+                            <constraint firstItem="YYt-OF-HUG" firstAttribute="centerY" secondItem="a4P-hO-VYv" secondAttribute="centerY" id="Vwf-T0-fUf"/>
+                            <constraint firstItem="YYt-OF-HUG" firstAttribute="width" secondItem="Mba-ZK-BWk" secondAttribute="width" id="aGh-0I-FHD"/>
+                            <constraint firstItem="YYt-OF-HUG" firstAttribute="centerX" secondItem="a4P-hO-VYv" secondAttribute="centerX" id="rlD-cy-bIS"/>
+                            <constraint firstItem="GfZ-W3-P32" firstAttribute="centerX" secondItem="YYt-OF-HUG" secondAttribute="centerX" id="wV1-BG-IIt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="a4P-hO-VYv"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="GfZ-W3-P32" id="3Uy-rK-9d0"/>
+                        <outlet property="scrollView" destination="YYt-OF-HUG" id="QyK-cz-io3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jFx-8L-yl1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="897" y="117"/>
         </scene>
     </scenes>
 </document>
