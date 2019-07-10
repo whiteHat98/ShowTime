@@ -22,6 +22,8 @@
 		C5CF801322D5A9A4004A362B /* SlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CF801222D5A9A4004A362B /* SlideView.xib */; };
 		C5CF801522D5AA7E004A362B /* MovingAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801422D5AA7E004A362B /* MovingAverageFilter.swift */; };
 		C5CF801722D5AA9B004A362B /* HeatmapPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801622D5AA9B004A362B /* HeatmapPostProcessor.swift */; };
+		C5CF801922D5ACF0004A362B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801822D5ACF0004A362B /* HomePageViewController.swift */; };
+		C5CF801B22D5AD32004A362B /* HomePage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801A22D5AD32004A362B /* HomePage2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		C5CF801222D5A9A4004A362B /* SlideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideView.xib; sourceTree = "<group>"; };
 		C5CF801422D5AA7E004A362B /* MovingAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovingAverageFilter.swift; path = "../../ShowTime-master/ShowTime/MovingAverageFilter.swift"; sourceTree = "<group>"; };
 		C5CF801622D5AA9B004A362B /* HeatmapPostProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeatmapPostProcessor.swift; path = "../../ShowTime-master/ShowTime/HeatmapPostProcessor.swift"; sourceTree = "<group>"; };
+		C5CF801822D5ACF0004A362B /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		C5CF801A22D5AD32004A362B /* HomePage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				97B10D3E22D4756E00EBB774 /* DetectionViewController.swift */,
 				97B10D5322D475D100EBB774 /* Measure.swift */,
 				97B10D4022D4756E00EBB774 /* Main.storyboard */,
+				C5CF801822D5ACF0004A362B /* HomePageViewController.swift */,
+				C5CF801A22D5AD32004A362B /* HomePage2ViewController.swift */,
 				C5CF800E22D5A945004A362B /* TutorialViewController.swift */,
 				C5CF801022D5A966004A362B /* Slide.swift */,
 				C5CF801422D5AA7E004A362B /* MovingAverageFilter.swift */,
@@ -173,7 +179,9 @@
 				97B10D5422D475D100EBB774 /* Measure.swift in Sources */,
 				C5CF801522D5AA7E004A362B /* MovingAverageFilter.swift in Sources */,
 				C5CF801122D5A966004A362B /* Slide.swift in Sources */,
+				C5CF801B22D5AD32004A362B /* HomePage2ViewController.swift in Sources */,
 				97B10D5A22D475F000EBB774 /* DrawingJoint.swift in Sources */,
+				C5CF801922D5ACF0004A362B /* HomePageViewController.swift in Sources */,
 				97B10D4522D4756E00EBB774 /* ShowTime.xcdatamodeld in Sources */,
 				97B10D3D22D4756E00EBB774 /* AppDelegate.swift in Sources */,
 				C5CF801722D5AA9B004A362B /* HeatmapPostProcessor.swift in Sources */,
