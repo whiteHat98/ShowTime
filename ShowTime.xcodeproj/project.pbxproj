@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9757FC9622D5C0BB004FAA95 /* MovingAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9757FC9522D5C0BB004FAA95 /* MovingAverageFilter.swift */; };
+		9757FC9822D5C0CA004FAA95 /* HeatmapPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9757FC9722D5C0CA004FAA95 /* HeatmapPostProcessor.swift */; };
 		97B10D3D22D4756E00EBB774 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D3C22D4756E00EBB774 /* AppDelegate.swift */; };
 		97B10D3F22D4756E00EBB774 /* DetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B10D3E22D4756E00EBB774 /* DetectionViewController.swift */; };
 		97B10D4222D4756E00EBB774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B10D4022D4756E00EBB774 /* Main.storyboard */; };
@@ -20,13 +22,12 @@
 		C5CF800F22D5A945004A362B /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF800E22D5A945004A362B /* TutorialViewController.swift */; };
 		C5CF801122D5A966004A362B /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801022D5A966004A362B /* Slide.swift */; };
 		C5CF801322D5A9A4004A362B /* SlideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CF801222D5A9A4004A362B /* SlideView.xib */; };
-		C5CF801522D5AA7E004A362B /* MovingAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801422D5AA7E004A362B /* MovingAverageFilter.swift */; };
-		C5CF801722D5AA9B004A362B /* HeatmapPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801622D5AA9B004A362B /* HeatmapPostProcessor.swift */; };
 		C5CF801922D5ACF0004A362B /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801822D5ACF0004A362B /* HomePageViewController.swift */; };
-		C5CF801B22D5AD32004A362B /* HomePage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF801A22D5AD32004A362B /* HomePage2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9757FC9522D5C0BB004FAA95 /* MovingAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovingAverageFilter.swift; path = ../../../../Desktop/MovingAverageFilter.swift; sourceTree = "<group>"; };
+		9757FC9722D5C0CA004FAA95 /* HeatmapPostProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeatmapPostProcessor.swift; path = ../../../../Desktop/HeatmapPostProcessor.swift; sourceTree = "<group>"; };
 		97B10D3922D4756E00EBB774 /* ShowTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B10D3C22D4756E00EBB774 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97B10D3E22D4756E00EBB774 /* DetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionViewController.swift; sourceTree = "<group>"; };
@@ -42,10 +43,7 @@
 		C5CF800E22D5A945004A362B /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		C5CF801022D5A966004A362B /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 		C5CF801222D5A9A4004A362B /* SlideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideView.xib; sourceTree = "<group>"; };
-		C5CF801422D5AA7E004A362B /* MovingAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovingAverageFilter.swift; path = "../../ShowTime-master/ShowTime/MovingAverageFilter.swift"; sourceTree = "<group>"; };
-		C5CF801622D5AA9B004A362B /* HeatmapPostProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeatmapPostProcessor.swift; path = "../../ShowTime-master/ShowTime/HeatmapPostProcessor.swift"; sourceTree = "<group>"; };
 		C5CF801822D5ACF0004A362B /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
-		C5CF801A22D5AD32004A362B /* HomePage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +83,10 @@
 				97B10D5322D475D100EBB774 /* Measure.swift */,
 				97B10D4022D4756E00EBB774 /* Main.storyboard */,
 				C5CF801822D5ACF0004A362B /* HomePageViewController.swift */,
-				C5CF801A22D5AD32004A362B /* HomePage2ViewController.swift */,
 				C5CF800E22D5A945004A362B /* TutorialViewController.swift */,
 				C5CF801022D5A966004A362B /* Slide.swift */,
-				C5CF801422D5AA7E004A362B /* MovingAverageFilter.swift */,
-				C5CF801622D5AA9B004A362B /* HeatmapPostProcessor.swift */,
+				9757FC9722D5C0CA004FAA95 /* HeatmapPostProcessor.swift */,
+				9757FC9522D5C0BB004FAA95 /* MovingAverageFilter.swift */,
 				C5CF801222D5A9A4004A362B /* SlideView.xib */,
 				97B10D5922D475F000EBB774 /* DrawingJoint.swift */,
 				97B10D4622D4756F00EBB774 /* Assets.xcassets */,
@@ -173,18 +170,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				97B10D5C22D475FE00EBB774 /* model_cpm.mlmodel in Sources */,
+				9757FC9822D5C0CA004FAA95 /* HeatmapPostProcessor.swift in Sources */,
 				97B10D5222D4759600EBB774 /* VideoCapture.swift in Sources */,
 				C5CF800F22D5A945004A362B /* TutorialViewController.swift in Sources */,
+				9757FC9622D5C0BB004FAA95 /* MovingAverageFilter.swift in Sources */,
 				97B10D3F22D4756E00EBB774 /* DetectionViewController.swift in Sources */,
 				97B10D5422D475D100EBB774 /* Measure.swift in Sources */,
-				C5CF801522D5AA7E004A362B /* MovingAverageFilter.swift in Sources */,
 				C5CF801122D5A966004A362B /* Slide.swift in Sources */,
-				C5CF801B22D5AD32004A362B /* HomePage2ViewController.swift in Sources */,
 				97B10D5A22D475F000EBB774 /* DrawingJoint.swift in Sources */,
 				C5CF801922D5ACF0004A362B /* HomePageViewController.swift in Sources */,
 				97B10D4522D4756E00EBB774 /* ShowTime.xcdatamodeld in Sources */,
 				97B10D3D22D4756E00EBB774 /* AppDelegate.swift in Sources */,
-				C5CF801722D5AA9B004A362B /* HeatmapPostProcessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6ZFS657T4Z;
+				DEVELOPMENT_TEAM = 3N7N4BXCRP;
 				INFOPLIST_FILE = ShowTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -349,7 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6ZFS657T4Z;
+				DEVELOPMENT_TEAM = 3N7N4BXCRP;
 				INFOPLIST_FILE = ShowTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
