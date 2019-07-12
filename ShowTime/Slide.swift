@@ -8,18 +8,47 @@
 
 import UIKit
 
+@IBDesignable
 class Slide: UIView {
+    
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var labelTitle: UILabel!
     
     @IBOutlet weak var labelDesc: UILabel!
-    /*
-     // Only override draw() if you perform custom drawing.
-     // An empty implementation adversely affects performance during animation.
-     override func draw(_ rect: CGRect) {
-     // Drawing code
-     }
-     */
     
+
+    @IBInspectable var firstColor:UIColor = UIColor.clear {
+        didSet {
+            updateView()
+        }
+    }
+    
+    
+    @IBInspectable var secondColor:UIColor = UIColor.clear {
+        didSet {
+            updateView()
+        }
+    }
+    @IBInspectable var isVertical: Bool = true {
+        didSet{
+            updateView()
+        }
+    }
+    
+    
+    override class var layerClass: AnyClass {
+        get {
+            return CAGradientLayer.self
+        }
+    }
+    
+    func updateView(){
+        let layer = self.layer as! CAGradientLayer
+        
+        layer.colors = [firstColor,secondColor].map{$0.cgColor}
+        
+    
+    }
+
 }
