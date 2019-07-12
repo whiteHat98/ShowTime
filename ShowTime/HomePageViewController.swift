@@ -12,8 +12,12 @@ class HomePageViewController: UIViewController {
     
     @IBOutlet weak var nameTxt: UITextField!
     @IBOutlet weak var nextBtn: UIButton!
+
+    @IBOutlet weak var colltionView: UICollectionView!
     
     var name = ""
+    var imgArr = [UIImage(named: "Afro"),
+                  UIImage(named: "image2")]
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
@@ -36,13 +40,14 @@ class HomePageViewController: UIViewController {
         super.viewDidLoad()
         
         setNeedsStatusBarAppearanceUpdate()
-        view.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: Selector("endEditing")))
         nameTxt.addBottomBorder()
         nameTxt.contentVerticalAlignment = .center;
         nameTxt.textAlignment = .center;
         setupButton()
+        
+        nextBtn.layer.cornerRadius = 20
         
     }
     
@@ -59,7 +64,6 @@ class HomePageViewController: UIViewController {
         nextBtn.layer.borderColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         nextBtn.layer.cornerRadius = 20
         nextBtn.layer.borderWidth = 0.5
-        nextBtn.layer.backgroundColor = nil
         nextBtn.setTitleColor(.white, for: .normal)
     }
     
@@ -78,3 +82,18 @@ extension UITextField{
     }
     
 }
+
+extension HomePageViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return imgArr.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? DataCollectionViewCell
+        cell?.imgView.image = imgArr[indexPath.row]
+        return cell!
+    }
+}
+
+
